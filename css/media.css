@@ -1,0 +1,116 @@
+/* TABLET */
+
+@media (max-width: 992px) {
+  .meal-image {
+    min-height: 400px;
+  }
+
+  .time-box {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .title-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .content-box {
+    height: auto;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .nutrition-style #ingredientsList {
+    grid-template-columns: 1fr;
+  }
+
+  .instruction-item {
+    flex-direction: column;
+  }
+
+  .content-box {
+    padding: 25px;
+  }
+
+  .title-row h1 {
+    font-size: 26px;
+  }
+
+  #mealDesc {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .tabs {
+    justify-content: flex-start;
+  }
+
+  .tab {
+    font-size: 14px;
+  }
+
+  .time-box {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .recipe-btn {
+    width: 100%;
+  }
+
+  .nutrition-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 480px) {
+  .content-box {
+    padding: 18px;
+  }
+
+  .title-row h1 {
+    font-size: 22px;
+  }
+
+  .top-buttons {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .top-btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .rating-box {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .warning-box {
+    flex-direction: column;
+  }
+
+  .ingredient-item,
+  .tip-item {
+    align-items: flex-start;
+  }
+
+  .instruction-number {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
