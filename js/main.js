@@ -2,7 +2,7 @@ let meals = [
   // BURGER
   {
     name: "Classic Beef Burger",
-    image: "../images/burger.jpg",
+    image: "./images/burger.jpg",
     description:
       "Juicy homemade burger with all the fixings and perfectly melted cheese.",
 
@@ -54,7 +54,7 @@ let meals = [
   // CAESAR SALAD
   {
     name: "Caesar Salad",
-    image: "../images/caesar-salad.jpg",
+    image: "./images/caesar-salad.jpg",
     description: "Classic salad with crispy romaine and creamy dressing.",
 
     prepTime: "15 min",
@@ -95,7 +95,7 @@ let meals = [
   // FRENCH ONION SOUP
   {
     name: "French Onion Soup",
-    image: "../images/french-onion-soup.jpg.jpg",
+    image: "./images/french-onion-soup.jpg.jpg",
     description: "Rich beef broth with caramelized onions and melted cheese.",
 
     prepTime: "15 min",
